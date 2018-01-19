@@ -1,0 +1,7 @@
+applications:
+- name: elevator-mh-consumer-ewk
+  host: elevator-mh-consumer-ewk
+  memory: 256M
+services:
+  - dashDB for Analytics-4e
+  - Message Hub-8w

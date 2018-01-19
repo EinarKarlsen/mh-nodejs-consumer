@@ -1,0 +1,23 @@
+{
+  "name": "mhreceiver",
+  "version": "1.0.0",
+  "description": "feeds Message Hub messages from a specific topic into database",
+  "main": "mhreceiver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mhreceiver.js"
+  },
+  "engines": {
+    "node": "0.6.*"
+  },
+  "author": "Rene Meyer, Einar Karlsen",
+  "license": "MIT",
+  "dependencies": {
+    "cfenv": "^1.0.4",
+    "dotenv": "^4.0.0",
+    "http": "0.0.0",
+    "ibm_db": "^2.2.1",
+    "node-rdkafka": "^2.1.1",
+    "string-template": "*"
+  }
+}

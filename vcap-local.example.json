@@ -1,0 +1,57 @@
+{
+  "services": {
+      "dashDB": [
+          {
+              "credentials": {
+                  "port": 50000,
+                  "db": "<placeholder>",
+                  "username": "<placeholder>",
+                  "ssljdbcurl": "<placeholder>",
+                  "host": "<placeholder>",
+                  "https_url": "<placeholder>",
+                  "dsn": "<placeholder>",
+                  "hostname": "<placeholder>",
+                  "jdbcurl": "<placeholder>B",
+                  "ssldsn": "<placeholder>",
+                  "uri": "<placeholder>",
+                  "password": "<placeholder>"
+              },
+              "label": "dashDB",
+              "name": "dashDB for Analytics-4e",
+              "tags": [
+              ]
+          }
+      ],
+      "messagehub": [
+        {
+            "credentials": {
+                "instance_id": "<placeholder>",
+                "mqlight_lookup_url": "<placeholder>",
+                "api_key": "<placeholder>",
+                "kafka_admin_url": "<placeholder>",
+                "kafka_rest_url": "<placeholder>",
+                "kafka_brokers_sasl": [
+                    "<placeholder>",
+                    "<placeholder>",
+                    "<placeholder>",
+                    "<placeholder>",
+                    "<placeholder>"
+                ],
+                "user": "<placeholder>",
+                "password": "<placeholder>"
+            },
+            "syslog_drain_url": null,
+            "volume_mounts": [],
+            "label": "messagehub",
+            "provider": null,
+            "plan": "standard",
+            "name": "Message Hub-8w",
+            "tags": [
+                "ibm_dedicated_public",
+                "web_and_app",
+                "ibm_created"
+            ]
+        }
+    ]
+  }
+}
