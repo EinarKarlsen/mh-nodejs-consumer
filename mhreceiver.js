@@ -90,8 +90,8 @@ console.log('Created Kafka read stream');
 
 // Read data from the stream
 stream.on('data', function(message) {
-//  console.log('Got message ' + JSON.stringify(message));
-//  console.log('Received value ' + message.value.toString());
+console.log('Got message ' + JSON.stringify(message));
+console.log('Received value ' + message.value.toString());
 
   var payload = JSON.parse(message.value.toString());
   var realPayload = payload.d;

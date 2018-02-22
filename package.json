@@ -1,7 +1,7 @@
 {
   "name": "mhreceiver",
   "version": "1.0.0",
-  "description": "feeds Message Hub messages from a specific topic into database",
+  "description": "feeds Message Hub messages from a specific topic into a Db2 database",
   "main": "mhreceiver.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
